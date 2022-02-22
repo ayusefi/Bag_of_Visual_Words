@@ -4,7 +4,6 @@
 #include <chrono>
 #include <convert_dataset.hpp>
 #include <ctime>
-// #include <execution>
 #include <functional>
 #include <iostream>
 #include <opencv2/core.hpp>

@@ -48,10 +48,6 @@ void BowDictionary::build(int iter, int dict_size, const std::vector<cv::Mat>& d
   computed_dictionary_ = kMeans(descriptors, dict_size, iter);
 }
 
-// void BowDictionary::set_vocabulary(cv::Mat computed_vocabulary)
-// {
-//   computed_dictionary_ = computed_vocabulary;
-// }
 void BowDictionary::set_vocabulary(const std::string& filename)
 {
   computed_dictionary_ = Deserialize(filename);

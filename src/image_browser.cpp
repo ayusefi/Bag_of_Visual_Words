@@ -1,4 +1,3 @@
-// #include <imagebrowser/image_browser.hpp>
 #include <string>
 #include <tuple>
 
@@ -46,19 +45,3 @@ void image_browser::CreateImageBrowser(const std::string& title, const std::stri
   out_file << img_browser_str;
   out_file.close();
 }
-
-// int main() {
-//   std::vector<ImageRow> image_raws;
-//   int current_imgrow = 0;
-//   for (int i = 0; i < 3; i++) {
-//     ImageRow m_img_row;
-//     for (int j = 0; j < 3; j++) {
-//       std::string img_title =
-//           "../data/000" + std::to_string(i * 3 + j) + "00.png";
-//       m_img_row[j] = std::make_tuple(img_title, (i * 3 + j) * 0.1f);
-//     }
-//     image_raws.push_back(m_img_row);
-//   }
-//   image_browser::CreateImageBrowser("Test", "../style.css", image_raws);
-//   return 0;
-// }

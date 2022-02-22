@@ -31,16 +31,11 @@ public:
   static BowDictionary& GetInstance();
 
 private:
-  //   int max_iter_;
-  //   int dict_size_;
-  //   std::vector<cv::Mat> descriptors_;
   cv::Mat computed_dictionary_;
 
 public:
   // Getters methods
-  //   int max_iterations();
   int size();  // number of centroids / codewords
-               //   std::vector<cv::Mat> descriptors();
   cv::Mat vocabulary() const
   {
     return computed_dictionary_;
@@ -49,14 +44,9 @@ public:
   {
     return computed_dictionary_;
   };
-  //   cv::Mat& vocabulary();
-  //   int total_features();  // number of input features
   bool empty();
 
   // Setters methods
-  //   void set_max_iterations(int new_max_iter);
-  //   void set_size(int new_dict_size);
-  //   void set_descriptors(std::vector<cv::Mat> new_descriptors);
   void build(int iter, int dict_size, const std::vector<cv::Mat>& descriptors);
   void set_vocabulary(const std::string& filename);
   void save_vocabulary(const std::string& filename);
@@ -81,7 +71,6 @@ public:
   void WriteToCSV(const std::string& filename);
   void ReadFromCSV(const std::string& filename);
 
-  // Imitate stl_vector functionality
   float& operator[](int i)
   {
     return data_[i];

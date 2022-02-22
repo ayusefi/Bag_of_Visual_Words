@@ -13,8 +13,6 @@
 
 void Serialize(const cv::Mat& m, const std::string& filename)
 {
-  // auto [descriptors, image_with_kp] = ComputeSifts(m);
-
   std::ofstream fs(filename, std::fstream::binary);
 
   // Header

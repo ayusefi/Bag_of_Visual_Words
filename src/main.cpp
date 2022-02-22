@@ -20,12 +20,6 @@ int main()
       place_recognizer.find_places(image_path.path().string());
     }
   }
-  //   const std::string img_path = "/home/abdullah/Downloads/images-freiburg-x10/data1/";
-  //   const std::string bin_path = "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/data/freiburg/bin/";
-
-  // std::cout << "Serializing images... \n";
-  // ConvertDataset(img_path);
-  // std::cout << "Serializing completed!\n\n";
 
   std::cout << "Loading serialized binary files...\n";
   //   std::vector<cv::Mat> loaded_descriptors = LoadDataset(bin_path);

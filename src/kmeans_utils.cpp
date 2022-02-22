@@ -11,7 +11,6 @@
 #include <opencv2/opencv.hpp>
 
 #include <vector>
-// #include <ctime>  // for a random seed
 
 cv::Mat convertDescriptorToFloatMat(cv::Mat Descriptor)
 {

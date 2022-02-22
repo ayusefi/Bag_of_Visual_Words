@@ -4,7 +4,6 @@
 #include <chrono>
 #include <convert_dataset.hpp>
 #include <ctime>
-// #include <execution>
 #include <experimental/filesystem>
 #include <functional>
 #include <iostream>
@@ -14,7 +13,6 @@
 #include <string>
 #include <thread>
 #include <vector>
-// #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/xfeatures2d/nonfree.hpp>
 #include <opencv2/xfeatures2d.hpp>
