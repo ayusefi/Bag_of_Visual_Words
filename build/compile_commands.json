@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build",
+  "command": "/usr/lib/ccache/c++  -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -isystem /usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/include   -pthread   -std=gnu++1z -o CMakeFiles/main.dir/src/main.cpp.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/src/main.cpp",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/src/main.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build",
+  "command": "/usr/lib/ccache/c++   -isystem /usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include   -pthread   -std=gnu++1z -o CMakeFiles/kmeans.dir/src/kmeans.cpp.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/src/kmeans.cpp",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/src/kmeans.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build",
+  "command": "/usr/lib/ccache/c++   -isystem /usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include   -pthread   -std=gnu++1z -o CMakeFiles/kmeans.dir/src/kmeans_utils.cpp.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/src/kmeans_utils.cpp",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/src/kmeans_utils.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build",
+  "command": "/usr/lib/ccache/c++   -isystem /usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include   -pthread   -std=gnu++1z -o CMakeFiles/bow_dictionary.dir/src/bow_dictionary.cpp.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/src/bow_dictionary.cpp",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/src/bow_dictionary.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build",
+  "command": "/usr/lib/ccache/c++   -isystem /usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include   -pthread   -std=gnu++1z -o CMakeFiles/convert_dataset.dir/src/convert_dataset.cpp.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/src/convert_dataset.cpp",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/src/convert_dataset.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build",
+  "command": "/usr/lib/ccache/c++   -isystem /usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include   -pthread   -std=gnu++1z -o CMakeFiles/convert_dataset.dir/src/serialize.cpp.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/src/serialize.cpp",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/src/serialize.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build",
+  "command": "/usr/lib/ccache/c++   -isystem /usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include   -pthread   -std=gnu++1z -o CMakeFiles/convert_dataset.dir/src/compute_sifts.cpp.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/src/compute_sifts.cpp",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/src/compute_sifts.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build",
+  "command": "/usr/lib/ccache/c++   -I/usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include   -pthread   -std=gnu++1z -o CMakeFiles/serialize.dir/src/compute_sifts.cpp.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/src/compute_sifts.cpp",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/src/compute_sifts.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build",
+  "command": "/usr/lib/ccache/c++   -I/usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include   -pthread   -std=gnu++1z -o CMakeFiles/serialize.dir/src/serialize.cpp.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/src/serialize.cpp",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/src/serialize.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build",
+  "command": "/usr/lib/ccache/c++  -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -I/usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/include   -pthread   -std=gnu++1z -o CMakeFiles/imagebrowser.dir/src/image_browser.cpp.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/src/image_browser.cpp",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/src/image_browser.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build",
+  "command": "/usr/lib/ccache/c++  -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -I/usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/include   -pthread   -std=gnu++1z -o CMakeFiles/htmlwriter.dir/src/html_writer.cpp.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/src/html_writer.cpp",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/src/html_writer.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build",
+  "command": "/usr/lib/ccache/c++  -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -isystem /usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/include   -pthread   -std=gnu++1z -o CMakeFiles/place_recognizer.dir/src/place_recognizer.cpp.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/src/place_recognizer.cpp",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/src/place_recognizer.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/fmt-8.1.1",
+  "command": "/usr/lib/ccache/c++   -I/usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/include   -pthread   -std=gnu++1z -o CMakeFiles/fmt.dir/src/format.cc.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/src/format.cc",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/src/format.cc"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/fmt-8.1.1",
+  "command": "/usr/lib/ccache/c++   -I/usr/local/include/opencv4 -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/include -I/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/include   -pthread   -std=gnu++1z -o CMakeFiles/fmt.dir/src/os.cc.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/src/os.cc",
+  "file": "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/src/os.cc"
+}
+]

@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++  -O3 -DNDEBUG   CMakeFiles/scan-test.dir/scan-test.cc.o  -o ../bin/scan-test -Wno-stringop-overflow libtest-main.a ../libfmt.a gtest/libgtest.a -lpthread 

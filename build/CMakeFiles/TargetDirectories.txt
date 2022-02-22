@@ -1,0 +1,13 @@
+/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/CMakeFiles/rebuild_cache.dir
+/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/CMakeFiles/edit_cache.dir
+/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/CMakeFiles/main.dir
+/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/CMakeFiles/kmeans.dir
+/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/CMakeFiles/bow_dictionary.dir
+/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/CMakeFiles/convert_dataset.dir
+/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/CMakeFiles/serialize.dir
+/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/CMakeFiles/imagebrowser.dir
+/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/CMakeFiles/htmlwriter.dir
+/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/CMakeFiles/place_recognizer.dir
+/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/fmt-8.1.1/CMakeFiles/rebuild_cache.dir
+/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/fmt-8.1.1/CMakeFiles/edit_cache.dir
+/home/abdullah/modern_cpp/Bag_of_Visual_Words/build/fmt-8.1.1/CMakeFiles/fmt.dir

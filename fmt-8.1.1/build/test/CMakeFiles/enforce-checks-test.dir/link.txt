@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++  -O3 -DNDEBUG   CMakeFiles/enforce-checks-test.dir/enforce-checks-test.cc.o  -o ../bin/enforce-checks-test -Wno-stringop-overflow libtest-main.a ../libfmt.a gtest/libgtest.a -lpthread 

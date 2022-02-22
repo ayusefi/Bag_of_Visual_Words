@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++  -O3 -DNDEBUG   CMakeFiles/assert-test.dir/assert-test.cc.o  -o ../bin/assert-test -Wno-stringop-overflow libtest-main.a ../libfmt.a gtest/libgtest.a -lpthread 

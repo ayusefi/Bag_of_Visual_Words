@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhtmlwriter.a  CMakeFiles/htmlwriter.dir/src/html_writer.cpp.o
+/usr/bin/ranlib libhtmlwriter.a

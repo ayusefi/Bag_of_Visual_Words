@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++  -O3 -DNDEBUG   CMakeFiles/color-test.dir/color-test.cc.o  -o ../bin/color-test -Wno-stringop-overflow libtest-main.a ../libfmt.a gtest/libgtest.a -lpthread 

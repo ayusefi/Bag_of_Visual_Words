@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05a04/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05a04.dir/build.make CMakeFiles/cmTC_05a04.dir/build
+make[1]: Entering directory '/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05a04.dir/CheckSymbolExists.cxx.o
+/usr/lib/ccache/c++    -std=gnu++11 -o CMakeFiles/cmTC_05a04.dir/CheckSymbolExists.cxx.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_05a04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05a04.dir/link.txt --verbose=1
+/usr/lib/ccache/c++       CMakeFiles/cmTC_05a04.dir/CheckSymbolExists.cxx.o  -o cmTC_05a04 
+CMakeFiles/cmTC_05a04.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_05a04.dir/build.make:97: recipe for target 'cmTC_05a04' failed
+make[1]: *** [cmTC_05a04] Error 1
+make[1]: Leaving directory '/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_05a04/fast' failed
+make: *** [cmTC_05a04/fast] Error 2
+
+File /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9fdbc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9fdbc.dir/build.make CMakeFiles/cmTC_9fdbc.dir/build
+make[1]: Entering directory '/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9fdbc.dir/CheckFunctionExists.cxx.o
+/usr/lib/ccache/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu++11 -o CMakeFiles/cmTC_9fdbc.dir/CheckFunctionExists.cxx.o -c /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_9fdbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fdbc.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9fdbc.dir/CheckFunctionExists.cxx.o  -o cmTC_9fdbc -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9fdbc.dir/build.make:97: recipe for target 'cmTC_9fdbc' failed
+make[1]: *** [cmTC_9fdbc] Error 1
+make[1]: Leaving directory '/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9fdbc/fast' failed
+make: *** [cmTC_9fdbc/fast] Error 2
+
+

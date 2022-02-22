@@ -1,0 +1,20 @@
+args-test 1 0.00194907
+assert-test 1 0.00157619
+chrono-test 1 0.0578921
+color-test 1 0.00189805
+core-test 1 0.00296688
+gtest-extra-test 1 0.00257397
+format-test 1 0.0104511
+format-impl-test 1 0.00633121
+ostream-test 1 0.0018661
+compile-test 1 0.00194097
+compile-fp-test 1 0.00190282
+printf-test 1 0.00387502
+ranges-test 1 0.00184202
+scan-test 1 0.00167108
+unicode-test 1 0.001688
+xchar-test 1 0.0024519
+enforce-checks-test 1 0.00139117
+posix-mock-test 1 0.00226498
+os-test 1 0.00313091
+---

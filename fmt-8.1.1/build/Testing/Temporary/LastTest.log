@@ -1,0 +1,1425 @@
+Start testing: Feb 22 09:55 +03
+----------------------------------------------------------
+1/19 Testing: args-test
+1/19 Test: args-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/args-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"args-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from args_test
+[ RUN      ] args_test.basic
+[       OK ] args_test.basic (0 ms)
+[ RUN      ] args_test.strings_and_refs
+[       OK ] args_test.strings_and_refs (0 ms)
+[ RUN      ] args_test.custom_format
+[       OK ] args_test.custom_format (0 ms)
+[ RUN      ] args_test.to_string_and_formatter
+[       OK ] args_test.to_string_and_formatter (0 ms)
+[ RUN      ] args_test.named_int
+[       OK ] args_test.named_int (0 ms)
+[ RUN      ] args_test.named_strings
+[       OK ] args_test.named_strings (0 ms)
+[ RUN      ] args_test.named_arg_by_ref
+[       OK ] args_test.named_arg_by_ref (0 ms)
+[ RUN      ] args_test.named_custom_format
+[       OK ] args_test.named_custom_format (0 ms)
+[ RUN      ] args_test.clear
+[       OK ] args_test.clear (0 ms)
+[ RUN      ] args_test.reserve
+[       OK ] args_test.reserve (0 ms)
+[ RUN      ] args_test.throw_on_copy
+[       OK ] args_test.throw_on_copy (0 ms)
+[ RUN      ] args_test.move_constructor
+[       OK ] args_test.move_constructor (0 ms)
+[----------] 12 tests from args_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 12 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"args-test" end time: Feb 22 09:55 +03
+"args-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/19 Testing: assert-test
+2/19 Test: assert-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/assert-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"assert-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from assert_test
+[ RUN      ] assert_test.fail
+[       OK ] assert_test.fail (0 ms)
+[ RUN      ] assert_test.dangling_else
+[       OK ] assert_test.dangling_else (0 ms)
+[----------] 2 tests from assert_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"assert-test" end time: Feb 22 09:55 +03
+"assert-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/19 Testing: chrono-test
+3/19 Test: chrono-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/chrono-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"chrono-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 27 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 27 tests from chrono_test
+[ RUN      ] chrono_test.format_tm
+[       OK ] chrono_test.format_tm (55 ms)
+[ RUN      ] chrono_test.format_tm_future
+[       OK ] chrono_test.format_tm_future (0 ms)
+[ RUN      ] chrono_test.format_tm_past
+[       OK ] chrono_test.format_tm_past (0 ms)
+[ RUN      ] chrono_test.grow_buffer
+[       OK ] chrono_test.grow_buffer (0 ms)
+[ RUN      ] chrono_test.format_to_empty_container
+[       OK ] chrono_test.format_to_empty_container (0 ms)
+[ RUN      ] chrono_test.empty_result
+[       OK ] chrono_test.empty_result (0 ms)
+[ RUN      ] chrono_test.localtime
+[       OK ] chrono_test.localtime (0 ms)
+[ RUN      ] chrono_test.gmtime
+[       OK ] chrono_test.gmtime (0 ms)
+[ RUN      ] chrono_test.time_point
+[       OK ] chrono_test.time_point (0 ms)
+[ RUN      ] chrono_test.format_default
+[       OK ] chrono_test.format_default (0 ms)
+[ RUN      ] chrono_test.align
+[       OK ] chrono_test.align (0 ms)
+[ RUN      ] chrono_test.format_specs
+[       OK ] chrono_test.format_specs (0 ms)
+[ RUN      ] chrono_test.invalid_specs
+[       OK ] chrono_test.invalid_specs (0 ms)
+[ RUN      ] chrono_test.locale
+ja_JP.utf8 locale is missing.
+[       OK ] chrono_test.locale (0 ms)
+[ RUN      ] chrono_test.format_default_fp
+[       OK ] chrono_test.format_default_fp (0 ms)
+[ RUN      ] chrono_test.format_precision
+[       OK ] chrono_test.format_precision (0 ms)
+[ RUN      ] chrono_test.format_full_specs
+[       OK ] chrono_test.format_full_specs (0 ms)
+[ RUN      ] chrono_test.format_simple_q
+[       OK ] chrono_test.format_simple_q (0 ms)
+[ RUN      ] chrono_test.format_precision_q
+[       OK ] chrono_test.format_precision_q (0 ms)
+[ RUN      ] chrono_test.format_full_specs_q
+[       OK ] chrono_test.format_full_specs_q (0 ms)
+[ RUN      ] chrono_test.invalid_width_id
+[       OK ] chrono_test.invalid_width_id (0 ms)
+[ RUN      ] chrono_test.invalid_colons
+[       OK ] chrono_test.invalid_colons (0 ms)
+[ RUN      ] chrono_test.negative_durations
+[       OK ] chrono_test.negative_durations (0 ms)
+[ RUN      ] chrono_test.special_durations
+[       OK ] chrono_test.special_durations (0 ms)
+[ RUN      ] chrono_test.unsigned_duration
+[       OK ] chrono_test.unsigned_duration (0 ms)
+[ RUN      ] chrono_test.weekday
+ru_RU.UTF-8 locale is missing.
+[       OK ] chrono_test.weekday (0 ms)
+[ RUN      ] chrono_test.cpp20_duration_subsecond_support
+[       OK ] chrono_test.cpp20_duration_subsecond_support (0 ms)
+[----------] 27 tests from chrono_test (56 ms total)
+
+[----------] Global test environment tear-down
+[==========] 27 tests from 1 test suite ran. (56 ms total)
+[  PASSED  ] 27 tests.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"chrono-test" end time: Feb 22 09:55 +03
+"chrono-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/19 Testing: color-test
+4/19 Test: color-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/color-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"color-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from color_test
+[ RUN      ] color_test.format
+[       OK ] color_test.format (0 ms)
+[ RUN      ] color_test.format_to
+[       OK ] color_test.format_to (0 ms)
+[ RUN      ] color_test.print
+[       OK ] color_test.print (0 ms)
+[----------] 3 tests from color_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"color-test" end time: Feb 22 09:55 +03
+"color-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/19 Testing: core-test
+5/19 Test: core-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/core-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"core-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 53 tests from 19 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from string_view_test
+[ RUN      ] string_view_test.value_type
+[       OK ] string_view_test.value_type (0 ms)
+[ RUN      ] string_view_test.ctor
+[       OK ] string_view_test.ctor (0 ms)
+[ RUN      ] string_view_test.length
+[       OK ] string_view_test.length (0 ms)
+[ RUN      ] string_view_test.compare
+[       OK ] string_view_test.compare (0 ms)
+[----------] 4 tests from string_view_test (0 ms total)
+
+[----------] 15 tests from core_test
+[ RUN      ] core_test.is_output_iterator
+[       OK ] core_test.is_output_iterator (0 ms)
+[ RUN      ] core_test.buffer_appender
+[       OK ] core_test.buffer_appender (0 ms)
+[ RUN      ] core_test.has_formatter
+[       OK ] core_test.has_formatter (0 ms)
+[ RUN      ] core_test.is_formattable
+[       OK ] core_test.is_formattable (0 ms)
+[ RUN      ] core_test.format
+[       OK ] core_test.format (0 ms)
+[ RUN      ] core_test.format_to
+[       OK ] core_test.format_to (0 ms)
+[ RUN      ] core_test.formatter_overrides_implicit_conversion
+[       OK ] core_test.formatter_overrides_implicit_conversion (0 ms)
+[ RUN      ] core_test.adl_check
+[       OK ] core_test.adl_check (0 ms)
+[ RUN      ] core_test.to_string_view_foreign_strings
+[       OK ] core_test.to_string_view_foreign_strings (0 ms)
+[ RUN      ] core_test.format_implicitly_convertible_to_string_view
+[       OK ] core_test.format_implicitly_convertible_to_string_view (0 ms)
+[ RUN      ] core_test.format_explicitly_convertible_to_string_view
+[       OK ] core_test.format_explicitly_convertible_to_string_view (0 ms)
+[ RUN      ] core_test.disabled_rvalue_conversion
+[       OK ] core_test.disabled_rvalue_conversion (0 ms)
+[ RUN      ] core_test.adl
+[       OK ] core_test.adl (0 ms)
+[ RUN      ] core_test.has_const_formatter
+[       OK ] core_test.has_const_formatter (0 ms)
+[ RUN      ] core_test.format_nonconst
+[       OK ] core_test.format_nonconst (0 ms)
+[----------] 15 tests from core_test (0 ms total)
+
+[----------] 11 tests from buffer_test
+[ RUN      ] buffer_test.noncopyable
+[       OK ] buffer_test.noncopyable (0 ms)
+[ RUN      ] buffer_test.nonmoveable
+[       OK ] buffer_test.nonmoveable (0 ms)
+[ RUN      ] buffer_test.indestructible
+[       OK ] buffer_test.indestructible (0 ms)
+[ RUN      ] buffer_test.ctor
+[       OK ] buffer_test.ctor (0 ms)
+[ RUN      ] buffer_test.access
+[       OK ] buffer_test.access (0 ms)
+[ RUN      ] buffer_test.try_resize
+[       OK ] buffer_test.try_resize (0 ms)
+[ RUN      ] buffer_test.try_resize_partial
+[       OK ] buffer_test.try_resize_partial (0 ms)
+[ RUN      ] buffer_test.clear
+[       OK ] buffer_test.clear (0 ms)
+[ RUN      ] buffer_test.append
+[       OK ] buffer_test.append (0 ms)
+[ RUN      ] buffer_test.append_partial
+[       OK ] buffer_test.append_partial (0 ms)
+[ RUN      ] buffer_test.append_allocates_enough_storage
+[       OK ] buffer_test.append_allocates_enough_storage (0 ms)
+[----------] 11 tests from buffer_test (0 ms total)
+
+[----------] 8 tests from arg_test
+[ RUN      ] arg_test.format_args
+[       OK ] arg_test.format_args (0 ms)
+[ RUN      ] arg_test.make_value_with_custom_context
+[       OK ] arg_test.make_value_with_custom_context (0 ms)
+[ RUN      ] arg_test.char_arg
+[       OK ] arg_test.char_arg (0 ms)
+[ RUN      ] arg_test.string_arg
+[       OK ] arg_test.string_arg (0 ms)
+[ RUN      ] arg_test.wstring_arg
+[       OK ] arg_test.wstring_arg (0 ms)
+[ RUN      ] arg_test.pointer_arg
+[       OK ] arg_test.pointer_arg (0 ms)
+[ RUN      ] arg_test.custom_arg
+[       OK ] arg_test.custom_arg (0 ms)
+[ RUN      ] arg_test.visit_invalid_arg
+[       OK ] arg_test.visit_invalid_arg (0 ms)
+[----------] 8 tests from arg_test (0 ms total)
+
+[----------] 1 test from numeric_arg_test/0, where TypeParam = bool
+[ RUN      ] numeric_arg_test/0.make_and_visit
+[       OK ] numeric_arg_test/0.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/0 (0 ms total)
+
+[----------] 1 test from numeric_arg_test/1, where TypeParam = signed char
+[ RUN      ] numeric_arg_test/1.make_and_visit
+[       OK ] numeric_arg_test/1.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/1 (0 ms total)
+
+[----------] 1 test from numeric_arg_test/2, where TypeParam = unsigned char
+[ RUN      ] numeric_arg_test/2.make_and_visit
+[       OK ] numeric_arg_test/2.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/2 (0 ms total)
+
+[----------] 1 test from numeric_arg_test/3, where TypeParam = short
+[ RUN      ] numeric_arg_test/3.make_and_visit
+[       OK ] numeric_arg_test/3.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/3 (0 ms total)
+
+[----------] 1 test from numeric_arg_test/4, where TypeParam = unsigned short
+[ RUN      ] numeric_arg_test/4.make_and_visit
+[       OK ] numeric_arg_test/4.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/4 (0 ms total)
+
+[----------] 1 test from numeric_arg_test/5, where TypeParam = int
+[ RUN      ] numeric_arg_test/5.make_and_visit
+[       OK ] numeric_arg_test/5.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/5 (0 ms total)
+
+[----------] 1 test from numeric_arg_test/6, where TypeParam = unsigned int
+[ RUN      ] numeric_arg_test/6.make_and_visit
+[       OK ] numeric_arg_test/6.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/6 (0 ms total)
+
+[----------] 1 test from numeric_arg_test/7, where TypeParam = long
+[ RUN      ] numeric_arg_test/7.make_and_visit
+[       OK ] numeric_arg_test/7.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/7 (0 ms total)
+
+[----------] 1 test from numeric_arg_test/8, where TypeParam = unsigned long
+[ RUN      ] numeric_arg_test/8.make_and_visit
+[       OK ] numeric_arg_test/8.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/8 (0 ms total)
+
+[----------] 1 test from numeric_arg_test/9, where TypeParam = long long
+[ RUN      ] numeric_arg_test/9.make_and_visit
+[       OK ] numeric_arg_test/9.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/9 (0 ms total)
+
+[----------] 1 test from numeric_arg_test/10, where TypeParam = unsigned long long
+[ RUN      ] numeric_arg_test/10.make_and_visit
+[       OK ] numeric_arg_test/10.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/10 (0 ms total)
+
+[----------] 1 test from numeric_arg_test/11, where TypeParam = float
+[ RUN      ] numeric_arg_test/11.make_and_visit
+[       OK ] numeric_arg_test/11.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/11 (0 ms total)
+
+[----------] 1 test from numeric_arg_test/12, where TypeParam = double
+[ RUN      ] numeric_arg_test/12.make_and_visit
+[       OK ] numeric_arg_test/12.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/12 (0 ms total)
+
+[----------] 1 test from numeric_arg_test/13, where TypeParam = long double
+[ RUN      ] numeric_arg_test/13.make_and_visit
+[       OK ] numeric_arg_test/13.make_and_visit (0 ms)
+[----------] 1 test from numeric_arg_test/13 (0 ms total)
+
+[----------] 1 test from format_test
+[ RUN      ] format_test.format_convertible_to_long_long
+[       OK ] format_test.format_convertible_to_long_long (0 ms)
+[----------] 1 test from format_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 53 tests from 19 test suites ran. (1 ms total)
+[  PASSED  ] 53 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"core-test" end time: Feb 22 09:55 +03
+"core-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/19 Testing: gtest-extra-test
+6/19 Test: gtest-extra-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/gtest-extra-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"gtest-extra-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 23 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 6 tests from single_evaluation_test
+[ RUN      ] single_evaluation_test.failed_expect_throw_msg
+[       OK ] single_evaluation_test.failed_expect_throw_msg (0 ms)
+[ RUN      ] single_evaluation_test.failed_expect_system_error
+[       OK ] single_evaluation_test.failed_expect_system_error (0 ms)
+[ RUN      ] single_evaluation_test.exception_tests
+[       OK ] single_evaluation_test.exception_tests (0 ms)
+[ RUN      ] single_evaluation_test.system_error_tests
+[       OK ] single_evaluation_test.system_error_tests (0 ms)
+[ RUN      ] single_evaluation_test.failed_expect_write
+[       OK ] single_evaluation_test.failed_expect_write (0 ms)
+[ RUN      ] single_evaluation_test.write_tests
+[       OK ] single_evaluation_test.write_tests (0 ms)
+[----------] 6 tests from single_evaluation_test (0 ms total)
+
+[----------] 11 tests from gtest_extra_test
+[ RUN      ] gtest_extra_test.expect_write
+[       OK ] gtest_extra_test.expect_write (0 ms)
+[ RUN      ] gtest_extra_test.expect_write_streaming
+[       OK ] gtest_extra_test.expect_write_streaming (0 ms)
+[ RUN      ] gtest_extra_test.expect_throw_no_unreachable_code_warning
+[       OK ] gtest_extra_test.expect_throw_no_unreachable_code_warning (0 ms)
+[ RUN      ] gtest_extra_test.expect_system_error_no_unreachable_code_warning
+[       OK ] gtest_extra_test.expect_system_error_no_unreachable_code_warning (0 ms)
+[ RUN      ] gtest_extra_test.expect_throw_behaves_like_single_statement
+[       OK ] gtest_extra_test.expect_throw_behaves_like_single_statement (0 ms)
+[ RUN      ] gtest_extra_test.expect_system_error_behaves_like_single_statement
+[       OK ] gtest_extra_test.expect_system_error_behaves_like_single_statement (0 ms)
+[ RUN      ] gtest_extra_test.expect_write_behaves_like_single_statement
+[       OK ] gtest_extra_test.expect_write_behaves_like_single_statement (0 ms)
+[ RUN      ] gtest_extra_test.expect_throw_msg
+[       OK ] gtest_extra_test.expect_throw_msg (0 ms)
+[ RUN      ] gtest_extra_test.expect_system_error
+[       OK ] gtest_extra_test.expect_system_error (0 ms)
+[ RUN      ] gtest_extra_test.expect_throw_msg_streaming
+[       OK ] gtest_extra_test.expect_throw_msg_streaming (0 ms)
+[ RUN      ] gtest_extra_test.expect_system_error_streaming
+[       OK ] gtest_extra_test.expect_system_error_streaming (0 ms)
+[----------] 11 tests from gtest_extra_test (0 ms total)
+
+[----------] 6 tests from output_redirect_test
+[ RUN      ] output_redirect_test.scoped_redirect
+[       OK ] output_redirect_test.scoped_redirect (0 ms)
+[ RUN      ] output_redirect_test.flush_error_in_ctor
+[       OK ] output_redirect_test.flush_error_in_ctor (0 ms)
+[ RUN      ] output_redirect_test.dup_error_in_ctor
+[       OK ] output_redirect_test.dup_error_in_ctor (0 ms)
+[ RUN      ] output_redirect_test.restore_and_read
+[       OK ] output_redirect_test.restore_and_read (0 ms)
+[ RUN      ] output_redirect_test.flush_error_in_restore_and_read
+[       OK ] output_redirect_test.flush_error_in_restore_and_read (0 ms)
+[ RUN      ] output_redirect_test.error_in_dtor
+[       OK ] output_redirect_test.error_in_dtor (0 ms)
+[----------] 6 tests from output_redirect_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 23 tests from 3 test suites ran. (0 ms total)
+[  PASSED  ] 23 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"gtest-extra-test" end time: Feb 22 09:55 +03
+"gtest-extra-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/19 Testing: format-test
+7/19 Test: format-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/format-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"format-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 98 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 9 tests from util_test
+[ RUN      ] util_test.bit_cast
+[       OK ] util_test.bit_cast (0 ms)
+[ RUN      ] util_test.increment
+[       OK ] util_test.increment (0 ms)
+[ RUN      ] util_test.parse_nonnegative_int
+[       OK ] util_test.parse_nonnegative_int (0 ms)
+[ RUN      ] util_test.utf8_to_utf16
+[       OK ] util_test.utf8_to_utf16 (0 ms)
+[ RUN      ] util_test.utf8_to_utf16_empty_string
+[       OK ] util_test.utf8_to_utf16_empty_string (0 ms)
+[ RUN      ] util_test.allocator_ref
+[       OK ] util_test.allocator_ref (0 ms)
+[ RUN      ] util_test.format_system_error
+[       OK ] util_test.format_system_error (0 ms)
+[ RUN      ] util_test.system_error
+[       OK ] util_test.system_error (0 ms)
+[ RUN      ] util_test.report_system_error
+[       OK ] util_test.report_system_error (0 ms)
+[----------] 9 tests from util_test (0 ms total)
+
+[----------] 9 tests from memory_buffer_test
+[ RUN      ] memory_buffer_test.ctor
+[       OK ] memory_buffer_test.ctor (0 ms)
+[ RUN      ] memory_buffer_test.move_ctor_inline_buffer
+[       OK ] memory_buffer_test.move_ctor_inline_buffer (0 ms)
+[ RUN      ] memory_buffer_test.move_ctor_dynamic_buffer
+[       OK ] memory_buffer_test.move_ctor_dynamic_buffer (0 ms)
+[ RUN      ] memory_buffer_test.move_assignment
+[       OK ] memory_buffer_test.move_assignment (0 ms)
+[ RUN      ] memory_buffer_test.grow
+[       OK ] memory_buffer_test.grow (0 ms)
+[ RUN      ] memory_buffer_test.allocator
+[       OK ] memory_buffer_test.allocator (0 ms)
+[ RUN      ] memory_buffer_test.exception_in_deallocate
+[       OK ] memory_buffer_test.exception_in_deallocate (0 ms)
+[ RUN      ] memory_buffer_test.max_size_allocator
+[       OK ] memory_buffer_test.max_size_allocator (0 ms)
+[ RUN      ] memory_buffer_test.max_size_allocator_overflow
+[       OK ] memory_buffer_test.max_size_allocator_overflow (0 ms)
+[----------] 9 tests from memory_buffer_test (0 ms total)
+
+[----------] 78 tests from format_test
+[ RUN      ] format_test.escape
+[       OK ] format_test.escape (0 ms)
+[ RUN      ] format_test.unmatched_braces
+[       OK ] format_test.unmatched_braces (0 ms)
+[ RUN      ] format_test.no_args
+[       OK ] format_test.no_args (0 ms)
+[ RUN      ] format_test.args_in_different_positions
+[       OK ] format_test.args_in_different_positions (0 ms)
+[ RUN      ] format_test.arg_errors
+[       OK ] format_test.arg_errors (0 ms)
+[ RUN      ] format_test.many_args
+[       OK ] format_test.many_args (0 ms)
+[ RUN      ] format_test.named_arg
+[       OK ] format_test.named_arg (0 ms)
+[ RUN      ] format_test.auto_arg_index
+[       OK ] format_test.auto_arg_index (0 ms)
+[ RUN      ] format_test.empty_specs
+[       OK ] format_test.empty_specs (0 ms)
+[ RUN      ] format_test.left_align
+[       OK ] format_test.left_align (0 ms)
+[ RUN      ] format_test.right_align
+[       OK ] format_test.right_align (0 ms)
+[ RUN      ] format_test.center_align
+[       OK ] format_test.center_align (0 ms)
+[ RUN      ] format_test.fill
+[       OK ] format_test.fill (0 ms)
+[ RUN      ] format_test.plus_sign
+[       OK ] format_test.plus_sign (0 ms)
+[ RUN      ] format_test.minus_sign
+[       OK ] format_test.minus_sign (0 ms)
+[ RUN      ] format_test.space_sign
+[       OK ] format_test.space_sign (0 ms)
+[ RUN      ] format_test.hash_flag
+[       OK ] format_test.hash_flag (0 ms)
+[ RUN      ] format_test.zero_flag
+[       OK ] format_test.zero_flag (0 ms)
+[ RUN      ] format_test.width
+[       OK ] format_test.width (0 ms)
+[ RUN      ] format_test.runtime_width
+[       OK ] format_test.runtime_width (0 ms)
+[ RUN      ] format_test.precision
+[       OK ] format_test.precision (0 ms)
+[ RUN      ] format_test.runtime_precision
+[       OK ] format_test.runtime_precision (0 ms)
+[ RUN      ] format_test.format_bool
+[       OK ] format_test.format_bool (0 ms)
+[ RUN      ] format_test.format_short
+[       OK ] format_test.format_short (0 ms)
+[ RUN      ] format_test.format_int
+[       OK ] format_test.format_int (1 ms)
+[ RUN      ] format_test.format_bin
+[       OK ] format_test.format_bin (0 ms)
+[ RUN      ] format_test.format_dec
+[       OK ] format_test.format_dec (0 ms)
+[ RUN      ] format_test.format_hex
+[       OK ] format_test.format_hex (0 ms)
+[ RUN      ] format_test.format_oct
+[       OK ] format_test.format_oct (0 ms)
+[ RUN      ] format_test.format_int_locale
+[       OK ] format_test.format_int_locale (0 ms)
+[ RUN      ] format_test.format_float
+[       OK ] format_test.format_float (0 ms)
+[ RUN      ] format_test.format_double
+[       OK ] format_test.format_double (1 ms)
+[ RUN      ] format_test.precision_rounding
+[       OK ] format_test.precision_rounding (0 ms)
+[ RUN      ] format_test.prettify_float
+[       OK ] format_test.prettify_float (0 ms)
+[ RUN      ] format_test.format_nan
+[       OK ] format_test.format_nan (0 ms)
+[ RUN      ] format_test.format_infinity
+[       OK ] format_test.format_infinity (0 ms)
+[ RUN      ] format_test.format_long_double
+[       OK ] format_test.format_long_double (0 ms)
+[ RUN      ] format_test.format_char
+[       OK ] format_test.format_char (1 ms)
+[ RUN      ] format_test.format_volatile_char
+[       OK ] format_test.format_volatile_char (0 ms)
+[ RUN      ] format_test.format_unsigned_char
+[       OK ] format_test.format_unsigned_char (0 ms)
+[ RUN      ] format_test.format_cstring
+[       OK ] format_test.format_cstring (1 ms)
+[ RUN      ] format_test.format_pointer
+[       OK ] format_test.format_pointer (1 ms)
+[ RUN      ] format_test.format_string
+[       OK ] format_test.format_string (0 ms)
+[ RUN      ] format_test.format_string_view
+[       OK ] format_test.format_string_view (0 ms)
+[ RUN      ] format_test.format_convertible_to_anything
+[       OK ] format_test.format_convertible_to_anything (0 ms)
+[ RUN      ] format_test.format_custom
+[       OK ] format_test.format_custom (0 ms)
+[ RUN      ] format_test.format_to_custom
+[       OK ] format_test.format_to_custom (0 ms)
+[ RUN      ] format_test.format_string_from_speed_test
+[       OK ] format_test.format_string_from_speed_test (0 ms)
+[ RUN      ] format_test.format_examples
+[       OK ] format_test.format_examples (0 ms)
+[ RUN      ] format_test.print
+[       OK ] format_test.print (0 ms)
+[ RUN      ] format_test.variadic
+[       OK ] format_test.variadic (0 ms)
+[ RUN      ] format_test.dynamic
+[       OK ] format_test.dynamic (0 ms)
+[ RUN      ] format_test.bytes
+[       OK ] format_test.bytes (0 ms)
+[ RUN      ] format_test.group_digits_view
+[       OK ] format_test.group_digits_view (0 ms)
+[ RUN      ] format_test.join
+[       OK ] format_test.join (0 ms)
+[ RUN      ] format_test.format_message_example
+[       OK ] format_test.format_message_example (0 ms)
+[ RUN      ] format_test.unpacked_args
+[       OK ] format_test.unpacked_args (0 ms)
+[ RUN      ] format_test.compile_time_string
+[       OK ] format_test.compile_time_string (0 ms)
+[ RUN      ] format_test.custom_format_compile_time_string
+[       OK ] format_test.custom_format_compile_time_string (0 ms)
+[ RUN      ] format_test.format_udl
+[       OK ] format_test.format_udl (0 ms)
+[ RUN      ] format_test.named_arg_udl
+[       OK ] format_test.named_arg_udl (0 ms)
+[ RUN      ] format_test.enum
+[       OK ] format_test.enum (0 ms)
+[ RUN      ] format_test.formatter_not_specialized
+[       OK ] format_test.formatter_not_specialized (0 ms)
+[ RUN      ] format_test.non_null_terminated_format_string
+[       OK ] format_test.non_null_terminated_format_string (0 ms)
+[ RUN      ] format_test.dynamic_formatter
+[       OK ] format_test.dynamic_formatter (0 ms)
+[ RUN      ] format_test.to_string
+[       OK ] format_test.to_string (0 ms)
+[ RUN      ] format_test.output_iterators
+[       OK ] format_test.output_iterators (0 ms)
+[ RUN      ] format_test.formatted_size
+[       OK ] format_test.formatted_size (0 ms)
+[ RUN      ] format_test.format_to_no_args
+[       OK ] format_test.format_to_no_args (0 ms)
+[ RUN      ] format_test.format_to
+[       OK ] format_test.format_to (0 ms)
+[ RUN      ] format_test.format_to_memory_buffer
+[       OK ] format_test.format_to_memory_buffer (0 ms)
+[ RUN      ] format_test.format_to_vector
+[       OK ] format_test.format_to_vector (0 ms)
+[ RUN      ] format_test.format_to_propagates_exceptions
+[       OK ] format_test.format_to_propagates_exceptions (0 ms)
+[ RUN      ] format_test.format_to_n
+[       OK ] format_test.format_to_n (0 ms)
+[ RUN      ] format_test.format_to_n_output_iterator
+[       OK ] format_test.format_to_n_output_iterator (0 ms)
+[ RUN      ] format_test.char_traits_is_not_ambiguous
+[       OK ] format_test.char_traits_is_not_ambiguous (0 ms)
+[ RUN      ] format_test.back_insert_slicing
+[       OK ] format_test.back_insert_slicing (0 ms)
+[ RUN      ] format_test.test_formatters_enabled
+[       OK ] format_test.test_formatters_enabled (0 ms)
+[----------] 78 tests from format_test (8 ms total)
+
+[----------] 2 tests from format_int_test
+[ RUN      ] format_int_test.data
+[       OK ] format_int_test.data (0 ms)
+[ RUN      ] format_int_test.format_int
+[       OK ] format_int_test.format_int (0 ms)
+[----------] 2 tests from format_int_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 98 tests from 4 test suites ran. (8 ms total)
+[  PASSED  ] 98 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"format-test" end time: Feb 22 09:55 +03
+"format-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/19 Testing: format-impl-test
+8/19 Test: format-impl-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/format-impl-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"format-impl-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 24 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 11 tests from bigint_test
+[ RUN      ] bigint_test.construct
+[       OK ] bigint_test.construct (0 ms)
+[ RUN      ] bigint_test.compare
+[       OK ] bigint_test.compare (0 ms)
+[ RUN      ] bigint_test.add_compare
+[       OK ] bigint_test.add_compare (0 ms)
+[ RUN      ] bigint_test.shift_left
+[       OK ] bigint_test.shift_left (0 ms)
+[ RUN      ] bigint_test.multiply
+[       OK ] bigint_test.multiply (0 ms)
+[ RUN      ] bigint_test.accumulator
+[       OK ] bigint_test.accumulator (0 ms)
+[ RUN      ] bigint_test.square
+[       OK ] bigint_test.square (0 ms)
+[ RUN      ] bigint_test.divmod_assign_zero_divisor
+[       OK ] bigint_test.divmod_assign_zero_divisor (0 ms)
+[ RUN      ] bigint_test.divmod_assign_self
+[       OK ] bigint_test.divmod_assign_self (0 ms)
+[ RUN      ] bigint_test.divmod_assign_unaligned
+[       OK ] bigint_test.divmod_assign_unaligned (0 ms)
+[ RUN      ] bigint_test.divmod_assign
+[       OK ] bigint_test.divmod_assign (0 ms)
+[----------] 11 tests from bigint_test (0 ms total)
+
+[----------] 8 tests from fp_test
+[ RUN      ] fp_test.double_tests
+[       OK ] fp_test.double_tests (0 ms)
+[ RUN      ] fp_test.normalize
+[       OK ] fp_test.normalize (0 ms)
+[ RUN      ] fp_test.multiply
+[       OK ] fp_test.multiply (0 ms)
+[ RUN      ] fp_test.get_cached_power
+[       OK ] fp_test.get_cached_power (4 ms)
+[ RUN      ] fp_test.dragonbox_max_k
+[       OK ] fp_test.dragonbox_max_k (0 ms)
+[ RUN      ] fp_test.get_round_direction
+[       OK ] fp_test.get_round_direction (0 ms)
+[ RUN      ] fp_test.fixed_handler
+[       OK ] fp_test.fixed_handler (0 ms)
+[ RUN      ] fp_test.grisu_format_compiles_with_on_ieee_double
+[       OK ] fp_test.grisu_format_compiles_with_on_ieee_double (0 ms)
+[----------] 8 tests from fp_test (4 ms total)
+
+[----------] 4 tests from format_impl_test
+[ RUN      ] format_impl_test.format_error_code
+[       OK ] format_impl_test.format_error_code (0 ms)
+[ RUN      ] format_impl_test.compute_width
+[       OK ] format_impl_test.compute_width (0 ms)
+[ RUN      ] format_impl_test.count_digits
+[       OK ] format_impl_test.count_digits (0 ms)
+[ RUN      ] format_impl_test.write_fallback_uintptr
+[       OK ] format_impl_test.write_fallback_uintptr (0 ms)
+[----------] 4 tests from format_impl_test (0 ms total)
+
+[----------] 1 test from header_only_test
+[ RUN      ] header_only_test.format
+[       OK ] header_only_test.format (0 ms)
+[----------] 1 test from header_only_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 24 tests from 4 test suites ran. (4 ms total)
+[  PASSED  ] 24 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"format-impl-test" end time: Feb 22 09:55 +03
+"format-impl-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/19 Testing: ostream-test
+9/19 Test: ostream-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/ostream-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"ostream-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 18 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 18 tests from ostream_test
+[ RUN      ] ostream_test.enum
+[       OK ] ostream_test.enum (0 ms)
+[ RUN      ] ostream_test.format
+[       OK ] ostream_test.format (0 ms)
+[ RUN      ] ostream_test.format_specs
+[       OK ] ostream_test.format_specs (0 ms)
+[ RUN      ] ostream_test.empty_custom_output
+[       OK ] ostream_test.empty_custom_output (0 ms)
+[ RUN      ] ostream_test.print
+[       OK ] ostream_test.print (0 ms)
+[ RUN      ] ostream_test.write_to_ostream
+[       OK ] ostream_test.write_to_ostream (0 ms)
+[ RUN      ] ostream_test.write_to_ostream_max_size
+[       OK ] ostream_test.write_to_ostream_max_size (0 ms)
+[ RUN      ] ostream_test.join
+[       OK ] ostream_test.join (0 ms)
+[ RUN      ] ostream_test.join_fallback_formatter
+[       OK ] ostream_test.join_fallback_formatter (0 ms)
+[ RUN      ] ostream_test.template
+[       OK ] ostream_test.template (0 ms)
+[ RUN      ] ostream_test.format_to_n
+[       OK ] ostream_test.format_to_n (0 ms)
+[ RUN      ] ostream_test.disable_builtin_ostream_operators
+[       OK ] ostream_test.disable_builtin_ostream_operators (0 ms)
+[ RUN      ] ostream_test.format_explicitly_convertible_to_string_like
+[       OK ] ostream_test.format_explicitly_convertible_to_string_like (0 ms)
+[ RUN      ] ostream_test.format_convertible_to_bool
+[       OK ] ostream_test.format_convertible_to_bool (0 ms)
+[ RUN      ] ostream_test.copyfmt
+[       OK ] ostream_test.copyfmt (0 ms)
+[ RUN      ] ostream_test.to_string
+[       OK ] ostream_test.to_string (0 ms)
+[ RUN      ] ostream_test.range
+[       OK ] ostream_test.range (0 ms)
+[ RUN      ] ostream_test.is_formattable
+[       OK ] ostream_test.is_formattable (0 ms)
+[----------] 18 tests from ostream_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 18 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ostream-test" end time: Feb 22 09:55 +03
+"ostream-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/19 Testing: compile-test
+10/19 Test: compile-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/compile-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"compile-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from iterator_test
+[ RUN      ] iterator_test.counting_iterator
+[       OK ] iterator_test.counting_iterator (0 ms)
+[ RUN      ] iterator_test.truncating_iterator
+[       OK ] iterator_test.truncating_iterator (0 ms)
+[ RUN      ] iterator_test.truncating_iterator_default_construct
+[       OK ] iterator_test.truncating_iterator_default_construct (0 ms)
+[ RUN      ] iterator_test.truncating_back_inserter
+[       OK ] iterator_test.truncating_back_inserter (0 ms)
+[----------] 4 tests from iterator_test (0 ms total)
+
+[----------] 2 tests from compile_test
+[ RUN      ] compile_test.compile_fallback
+[       OK ] compile_test.compile_fallback (0 ms)
+[ RUN      ] compile_test.compile_type_with_get
+[       OK ] compile_test.compile_type_with_get (0 ms)
+[----------] 2 tests from compile_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"compile-test" end time: Feb 22 09:55 +03
+"compile-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/19 Testing: compile-fp-test
+11/19 Test: compile-fp-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/compile-fp-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"compile-fp-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 0 tests from 0 test suites.
+[==========] 0 tests from 0 test suites ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"compile-fp-test" end time: Feb 22 09:55 +03
+"compile-fp-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/19 Testing: printf-test
+12/19 Test: printf-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/printf-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"printf-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 39 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 39 tests from printf_test
+[ RUN      ] printf_test.no_args
+[       OK ] printf_test.no_args (0 ms)
+[ RUN      ] printf_test.escape
+[       OK ] printf_test.escape (0 ms)
+[ RUN      ] printf_test.positional_args
+[       OK ] printf_test.positional_args (0 ms)
+[ RUN      ] printf_test.automatic_arg_indexing
+[       OK ] printf_test.automatic_arg_indexing (0 ms)
+[ RUN      ] printf_test.number_is_too_big_in_arg_index
+[       OK ] printf_test.number_is_too_big_in_arg_index (0 ms)
+[ RUN      ] printf_test.switch_arg_indexing
+[       OK ] printf_test.switch_arg_indexing (0 ms)
+[ RUN      ] printf_test.invalid_arg_index
+[       OK ] printf_test.invalid_arg_index (0 ms)
+[ RUN      ] printf_test.default_align_right
+[       OK ] printf_test.default_align_right (0 ms)
+[ RUN      ] printf_test.zero_flag
+[       OK ] printf_test.zero_flag (0 ms)
+[ RUN      ] printf_test.plus_flag
+[       OK ] printf_test.plus_flag (0 ms)
+[ RUN      ] printf_test.minus_flag
+[       OK ] printf_test.minus_flag (0 ms)
+[ RUN      ] printf_test.space_flag
+[       OK ] printf_test.space_flag (0 ms)
+[ RUN      ] printf_test.hash_flag
+[       OK ] printf_test.hash_flag (0 ms)
+[ RUN      ] printf_test.width
+[       OK ] printf_test.width (0 ms)
+[ RUN      ] printf_test.dynamic_width
+[       OK ] printf_test.dynamic_width (0 ms)
+[ RUN      ] printf_test.int_precision
+[       OK ] printf_test.int_precision (0 ms)
+[ RUN      ] printf_test.float_precision
+[       OK ] printf_test.float_precision (0 ms)
+[ RUN      ] printf_test.string_precision
+[       OK ] printf_test.string_precision (0 ms)
+[ RUN      ] printf_test.ignore_precision_for_non_numeric_arg
+[       OK ] printf_test.ignore_precision_for_non_numeric_arg (0 ms)
+[ RUN      ] printf_test.dynamic_precision
+[       OK ] printf_test.dynamic_precision (0 ms)
+[ RUN      ] printf_test.length
+[       OK ] printf_test.length (0 ms)
+[ RUN      ] printf_test.bool
+[       OK ] printf_test.bool (0 ms)
+[ RUN      ] printf_test.int
+[       OK ] printf_test.int (0 ms)
+[ RUN      ] printf_test.long_long
+[       OK ] printf_test.long_long (0 ms)
+[ RUN      ] printf_test.float
+[       OK ] printf_test.float (0 ms)
+[ RUN      ] printf_test.inf
+[       OK ] printf_test.inf (0 ms)
+[ RUN      ] printf_test.char
+[       OK ] printf_test.char (0 ms)
+[ RUN      ] printf_test.string
+[       OK ] printf_test.string (0 ms)
+[ RUN      ] printf_test.pointer
+[       OK ] printf_test.pointer (0 ms)
+[ RUN      ] printf_test.enum
+[       OK ] printf_test.enum (0 ms)
+[ RUN      ] printf_test.examples
+[       OK ] printf_test.examples (0 ms)
+[ RUN      ] printf_test.printf_error
+[       OK ] printf_test.printf_error (0 ms)
+[ RUN      ] printf_test.wide_string
+[       OK ] printf_test.wide_string (0 ms)
+[ RUN      ] printf_test.printf_custom
+[       OK ] printf_test.printf_custom (0 ms)
+[ RUN      ] printf_test.vprintf
+[       OK ] printf_test.vprintf (0 ms)
+[ RUN      ] printf_test.check_format_string_regression
+[       OK ] printf_test.check_format_string_regression (0 ms)
+[ RUN      ] printf_test.fixed_large_exponent
+[       OK ] printf_test.fixed_large_exponent (0 ms)
+[ RUN      ] printf_test.vsprintf_make_args_example
+[       OK ] printf_test.vsprintf_make_args_example (0 ms)
+[ RUN      ] printf_test.vsprintf_make_wargs_example
+[       OK ] printf_test.vsprintf_make_wargs_example (0 ms)
+[----------] 39 tests from printf_test (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 39 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 39 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"printf-test" end time: Feb 22 09:55 +03
+"printf-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/19 Testing: ranges-test
+13/19 Test: ranges-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/ranges-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"ranges-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 22 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 21 tests from ranges_test
+[ RUN      ] ranges_test.format_array
+[       OK ] ranges_test.format_array (0 ms)
+[ RUN      ] ranges_test.format_2d_array
+[       OK ] ranges_test.format_2d_array (0 ms)
+[ RUN      ] ranges_test.format_array_of_literals
+[       OK ] ranges_test.format_array_of_literals (0 ms)
+[ RUN      ] ranges_test.format_vector
+[       OK ] ranges_test.format_vector (0 ms)
+[ RUN      ] ranges_test.format_vector2
+[       OK ] ranges_test.format_vector2 (0 ms)
+[ RUN      ] ranges_test.format_map
+[       OK ] ranges_test.format_map (0 ms)
+[ RUN      ] ranges_test.format_set
+[       OK ] ranges_test.format_set (0 ms)
+[ RUN      ] ranges_test.format_pair
+[       OK ] ranges_test.format_pair (0 ms)
+[ RUN      ] ranges_test.format_tuple
+[       OK ] ranges_test.format_tuple (0 ms)
+[ RUN      ] ranges_test.format_struct
+[       OK ] ranges_test.format_struct (0 ms)
+[ RUN      ] ranges_test.format_to
+[       OK ] ranges_test.format_to (0 ms)
+[ RUN      ] ranges_test.path_like
+[       OK ] ranges_test.path_like (0 ms)
+[ RUN      ] ranges_test.range
+[       OK ] ranges_test.range (0 ms)
+[ RUN      ] ranges_test.enum_range
+[       OK ] ranges_test.enum_range (0 ms)
+[ RUN      ] ranges_test.unformattable_range
+[       OK ] ranges_test.unformattable_range (0 ms)
+[ RUN      ] ranges_test.join_tuple
+[       OK ] ranges_test.join_tuple (0 ms)
+[ RUN      ] ranges_test.join_initializer_list
+[       OK ] ranges_test.join_initializer_list (0 ms)
+[ RUN      ] ranges_test.join_sentinel
+[       OK ] ranges_test.join_sentinel (0 ms)
+[ RUN      ] ranges_test.join_range
+[       OK ] ranges_test.join_range (0 ms)
+[ RUN      ] ranges_test.is_printable
+[       OK ] ranges_test.is_printable (0 ms)
+[ RUN      ] ranges_test.escape_string
+[       OK ] ranges_test.escape_string (0 ms)
+[----------] 21 tests from ranges_test (0 ms total)
+
+[----------] 1 test from ranges_odr_test
+[ RUN      ] ranges_odr_test.format_vector
+[       OK ] ranges_odr_test.format_vector (0 ms)
+[----------] 1 test from ranges_odr_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 22 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 22 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ranges-test" end time: Feb 22 09:55 +03
+"ranges-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/19 Testing: scan-test
+14/19 Test: scan-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/scan-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"scan-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from scan_test
+[ RUN      ] scan_test.read_text
+[       OK ] scan_test.read_text (0 ms)
+[ RUN      ] scan_test.read_int
+[       OK ] scan_test.read_int (0 ms)
+[ RUN      ] scan_test.read_longlong
+[       OK ] scan_test.read_longlong (0 ms)
+[ RUN      ] scan_test.read_uint
+[       OK ] scan_test.read_uint (0 ms)
+[ RUN      ] scan_test.read_ulonglong
+[       OK ] scan_test.read_ulonglong (0 ms)
+[ RUN      ] scan_test.read_string
+[       OK ] scan_test.read_string (0 ms)
+[ RUN      ] scan_test.read_string_view
+[       OK ] scan_test.read_string_view (0 ms)
+[ RUN      ] scan_test.read_custom
+[       OK ] scan_test.read_custom (0 ms)
+[ RUN      ] scan_test.invalid_format
+[       OK ] scan_test.invalid_format (0 ms)
+[ RUN      ] scan_test.example
+[       OK ] scan_test.example (0 ms)
+[----------] 10 tests from scan_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"scan-test" end time: Feb 22 09:55 +03
+"scan-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/19 Testing: unicode-test
+15/19 Test: unicode-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/unicode-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"unicode-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from unicode_test
+[ RUN      ] unicode_test.is_utf8
+[       OK ] unicode_test.is_utf8 (0 ms)
+[ RUN      ] unicode_test.legacy_locale
+ru_RU.CP1251 locale is missing.
+[       OK ] unicode_test.legacy_locale (0 ms)
+[----------] 2 tests from unicode_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"unicode-test" end time: Feb 22 09:55 +03
+"unicode-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/19 Testing: xchar-test
+16/19 Test: xchar-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/xchar-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"xchar-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 32 tests from 8 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from is_string_test/0, where TypeParam = char
+[ RUN      ] is_string_test/0.is_string
+[       OK ] is_string_test/0.is_string (0 ms)
+[----------] 1 test from is_string_test/0 (0 ms total)
+
+[----------] 1 test from is_string_test/1, where TypeParam = wchar_t
+[ RUN      ] is_string_test/1.is_string
+[       OK ] is_string_test/1.is_string (0 ms)
+[----------] 1 test from is_string_test/1 (0 ms total)
+
+[----------] 1 test from is_string_test/2, where TypeParam = char16_t
+[ RUN      ] is_string_test/2.is_string
+[       OK ] is_string_test/2.is_string (0 ms)
+[----------] 1 test from is_string_test/2 (0 ms total)
+
+[----------] 1 test from is_string_test/3, where TypeParam = char32_t
+[ RUN      ] is_string_test/3.is_string
+[       OK ] is_string_test/3.is_string (0 ms)
+[----------] 1 test from is_string_test/3 (0 ms total)
+
+[----------] 17 tests from xchar_test
+[ RUN      ] xchar_test.format_explicitly_convertible_to_wstring_view
+[       OK ] xchar_test.format_explicitly_convertible_to_wstring_view (0 ms)
+[ RUN      ] xchar_test.format
+[       OK ] xchar_test.format (0 ms)
+[ RUN      ] xchar_test.is_formattable
+[       OK ] xchar_test.is_formattable (0 ms)
+[ RUN      ] xchar_test.compile_time_string
+[       OK ] xchar_test.compile_time_string (0 ms)
+[ RUN      ] xchar_test.format_utf8_precision
+[       OK ] xchar_test.format_utf8_precision (0 ms)
+[ RUN      ] xchar_test.format_to
+[       OK ] xchar_test.format_to (0 ms)
+[ RUN      ] xchar_test.vformat_to
+[       OK ] xchar_test.vformat_to (0 ms)
+[ RUN      ] xchar_test.format_udl
+[       OK ] xchar_test.format_udl (0 ms)
+[ RUN      ] xchar_test.named_arg_udl
+[       OK ] xchar_test.named_arg_udl (0 ms)
+[ RUN      ] xchar_test.print
+[       OK ] xchar_test.print (0 ms)
+[ RUN      ] xchar_test.join
+[       OK ] xchar_test.join (0 ms)
+[ RUN      ] xchar_test.enum
+[       OK ] xchar_test.enum (0 ms)
+[ RUN      ] xchar_test.sign_not_truncated
+[       OK ] xchar_test.sign_not_truncated (0 ms)
+[ RUN      ] xchar_test.chrono
+[       OK ] xchar_test.chrono (0 ms)
+[ RUN      ] xchar_test.color
+[       OK ] xchar_test.color (0 ms)
+[ RUN      ] xchar_test.ostream
+[       OK ] xchar_test.ostream (0 ms)
+[ RUN      ] xchar_test.to_wstring
+[       OK ] xchar_test.to_wstring (0 ms)
+[----------] 17 tests from xchar_test (0 ms total)
+
+[----------] 2 tests from format_test
+[ RUN      ] format_test.wide_format_to_n
+[       OK ] format_test.wide_format_to_n (0 ms)
+[ RUN      ] format_test.format_foreign_strings
+[       OK ] format_test.format_foreign_strings (0 ms)
+[----------] 2 tests from format_test (0 ms total)
+
+[----------] 1 test from chrono_test
+[ RUN      ] chrono_test.time_point
+[       OK ] chrono_test.time_point (0 ms)
+[----------] 1 test from chrono_test (0 ms total)
+
+[----------] 8 tests from locale_test
+[ RUN      ] locale_test.localized_double
+[       OK ] locale_test.localized_double (0 ms)
+[ RUN      ] locale_test.format
+[       OK ] locale_test.format (0 ms)
+[ RUN      ] locale_test.format_detault_align
+[       OK ] locale_test.format_detault_align (0 ms)
+[ RUN      ] locale_test.format_plus
+[       OK ] locale_test.format_plus (0 ms)
+[ RUN      ] locale_test.wformat
+[       OK ] locale_test.wformat (0 ms)
+[ RUN      ] locale_test.double_formatter
+[       OK ] locale_test.double_formatter (0 ms)
+[ RUN      ] locale_test.complex
+[       OK ] locale_test.complex (0 ms)
+[ RUN      ] locale_test.chrono_weekday
+ru_RU.UTF-8 locale is missing.
+[       OK ] locale_test.chrono_weekday (0 ms)
+[----------] 8 tests from locale_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 32 tests from 8 test suites ran. (0 ms total)
+[  PASSED  ] 32 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"xchar-test" end time: Feb 22 09:55 +03
+"xchar-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/19 Testing: enforce-checks-test
+17/19 Test: enforce-checks-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/enforce-checks-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"enforce-checks-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[38;2;255;020;030mrgb(255,20,30)[0m
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"enforce-checks-test" end time: Feb 22 09:55 +03
+"enforce-checks-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/19 Testing: posix-mock-test
+18/19 Test: posix-mock-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/posix-mock-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"posix-mock-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 20 tests from 5 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from os_test
+[ RUN      ] os_test.getpagesize
+[       OK ] os_test.getpagesize (0 ms)
+[----------] 1 test from os_test (0 ms total)
+
+[----------] 12 tests from file_test
+[ RUN      ] file_test.open_retry
+[       OK ] file_test.open_retry (0 ms)
+[ RUN      ] file_test.close_no_retry_in_dtor
+[       OK ] file_test.close_no_retry_in_dtor (0 ms)
+[ RUN      ] file_test.close_no_retry
+[       OK ] file_test.close_no_retry (0 ms)
+[ RUN      ] file_test.size
+[       OK ] file_test.size (0 ms)
+[ RUN      ] file_test.max_size
+[       OK ] file_test.max_size (0 ms)
+[ RUN      ] file_test.read_retry
+[       OK ] file_test.read_retry (0 ms)
+[ RUN      ] file_test.write_retry
+[       OK ] file_test.write_retry (0 ms)
+[ RUN      ] file_test.dup_no_retry
+[       OK ] file_test.dup_no_retry (0 ms)
+[ RUN      ] file_test.dup2_retry
+[       OK ] file_test.dup2_retry (0 ms)
+[ RUN      ] file_test.dup2_no_except_retry
+[       OK ] file_test.dup2_no_except_retry (0 ms)
+[ RUN      ] file_test.pipe_no_retry
+[       OK ] file_test.pipe_no_retry (0 ms)
+[ RUN      ] file_test.fdopen_no_retry
+[       OK ] file_test.fdopen_no_retry (0 ms)
+[----------] 12 tests from file_test (0 ms total)
+
+[----------] 4 tests from buffered_file_test
+[ RUN      ] buffered_file_test.open_retry
+[       OK ] buffered_file_test.open_retry (0 ms)
+[ RUN      ] buffered_file_test.close_no_retry_in_dtor
+[       OK ] buffered_file_test.close_no_retry_in_dtor (0 ms)
+[ RUN      ] buffered_file_test.close_no_retry
+[       OK ] buffered_file_test.close_no_retry (0 ms)
+[ RUN      ] buffered_file_test.fileno_no_retry
+[       OK ] buffered_file_test.fileno_no_retry (0 ms)
+[----------] 4 tests from buffered_file_test (0 ms total)
+
+[----------] 1 test from scoped_mock
+[ RUN      ] scoped_mock.scope
+[       OK ] scoped_mock.scope (0 ms)
+[----------] 1 test from scoped_mock (0 ms total)
+
+[----------] 2 tests from locale_test
+[ RUN      ] locale_test.locale_mock
+[       OK ] locale_test.locale_mock (0 ms)
+[ RUN      ] locale_test.locale
+[       OK ] locale_test.locale (0 ms)
+[----------] 2 tests from locale_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 5 test suites ran. (0 ms total)
+[  PASSED  ] 20 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"posix-mock-test" end time: Feb 22 09:55 +03
+"posix-mock-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/19 Testing: os-test
+19/19 Test: os-test
+Command: "/home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/bin/os-test"
+Directory: /home/abdullah/modern_cpp/Bag_of_Visual_Words/fmt-8.1.1/build/test
+"os-test" start time: Feb 22 09:55 +03
+Output:
+----------------------------------------------------------
+[==========] Running 44 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 12 tests from buffered_file_test
+[ RUN      ] buffered_file_test.default_ctor
+[       OK ] buffered_file_test.default_ctor (0 ms)
+[ RUN      ] buffered_file_test.move_ctor
+[       OK ] buffered_file_test.move_ctor (0 ms)
+[ RUN      ] buffered_file_test.move_assignment
+[       OK ] buffered_file_test.move_assignment (0 ms)
+[ RUN      ] buffered_file_test.move_assignment_closes_file
+[       OK ] buffered_file_test.move_assignment_closes_file (0 ms)
+[ RUN      ] buffered_file_test.move_from_temporary_in_ctor
+[       OK ] buffered_file_test.move_from_temporary_in_ctor (0 ms)
+[ RUN      ] buffered_file_test.move_from_temporary_in_assignment
+[       OK ] buffered_file_test.move_from_temporary_in_assignment (0 ms)
+[ RUN      ] buffered_file_test.move_from_temporary_in_assignment_closes_file
+[       OK ] buffered_file_test.move_from_temporary_in_assignment_closes_file (0 ms)
+[ RUN      ] buffered_file_test.close_file_in_dtor
+[       OK ] buffered_file_test.close_file_in_dtor (0 ms)
+[ RUN      ] buffered_file_test.close_error_in_dtor
+[       OK ] buffered_file_test.close_error_in_dtor (0 ms)
+[ RUN      ] buffered_file_test.close
+[       OK ] buffered_file_test.close (0 ms)
+[ RUN      ] buffered_file_test.close_error
+[       OK ] buffered_file_test.close_error (0 ms)
+[ RUN      ] buffered_file_test.fileno
+[       OK ] buffered_file_test.fileno (0 ms)
+[----------] 12 tests from buffered_file_test (0 ms total)
+
+[----------] 7 tests from ostream_test
+[ RUN      ] ostream_test.move
+[       OK ] ostream_test.move (0 ms)
+[ RUN      ] ostream_test.move_while_holding_data
+[       OK ] ostream_test.move_while_holding_data (0 ms)
+[ RUN      ] ostream_test.print
+[       OK ] ostream_test.print (0 ms)
+[ RUN      ] ostream_test.buffer_boundary
+[       OK ] ostream_test.buffer_boundary (0 ms)
+[ RUN      ] ostream_test.buffer_size
+[       OK ] ostream_test.buffer_size (0 ms)
+[ RUN      ] ostream_test.truncate
+[       OK ] ostream_test.truncate (0 ms)
+[ RUN      ] ostream_test.flush
+[       OK ] ostream_test.flush (0 ms)
+[----------] 7 tests from ostream_test (0 ms total)
+
+[----------] 25 tests from file_test
+[ RUN      ] file_test.default_ctor
+[       OK ] file_test.default_ctor (0 ms)
+[ RUN      ] file_test.open_buffered_file_in_ctor
+[       OK ] file_test.open_buffered_file_in_ctor (0 ms)
+[ RUN      ] file_test.open_buffered_file_error
+[       OK ] file_test.open_buffered_file_error (0 ms)
+[ RUN      ] file_test.move_ctor
+[       OK ] file_test.move_ctor (0 ms)
+[ RUN      ] file_test.move_assignment
+[       OK ] file_test.move_assignment (0 ms)
+[ RUN      ] file_test.move_assignment_closes_file
+[       OK ] file_test.move_assignment_closes_file (0 ms)
+[ RUN      ] file_test.move_from_temporary_in_ctor
+[       OK ] file_test.move_from_temporary_in_ctor (0 ms)
+[ RUN      ] file_test.move_from_temporary_in_assignment
+[       OK ] file_test.move_from_temporary_in_assignment (0 ms)
+[ RUN      ] file_test.move_from_temporary_in_assignment_closes_file
+[       OK ] file_test.move_from_temporary_in_assignment_closes_file (0 ms)
+[ RUN      ] file_test.close_file_in_dtor
+[       OK ] file_test.close_file_in_dtor (0 ms)
+[ RUN      ] file_test.close_error_in_dtor
+[       OK ] file_test.close_error_in_dtor (0 ms)
+[ RUN      ] file_test.close
+[       OK ] file_test.close (0 ms)
+[ RUN      ] file_test.close_error
+[       OK ] file_test.close_error (0 ms)
+[ RUN      ] file_test.read
+[       OK ] file_test.read (0 ms)
+[ RUN      ] file_test.read_error
+[       OK ] file_test.read_error (0 ms)
+[ RUN      ] file_test.write
+[       OK ] file_test.write (0 ms)
+[ RUN      ] file_test.write_error
+[       OK ] file_test.write_error (0 ms)
+[ RUN      ] file_test.dup
+[       OK ] file_test.dup (0 ms)
+[ RUN      ] file_test.dup_error
+[       OK ] file_test.dup_error (0 ms)
+[ RUN      ] file_test.dup2
+[       OK ] file_test.dup2 (0 ms)
+[ RUN      ] file_test.dup2_error
+[       OK ] file_test.dup2_error (0 ms)
+[ RUN      ] file_test.dup2_noexcept
+[       OK ] file_test.dup2_noexcept (0 ms)
+[ RUN      ] file_test.dup2_noexcept_error
+[       OK ] file_test.dup2_noexcept_error (0 ms)
+[ RUN      ] file_test.pipe
+[       OK ] file_test.pipe (0 ms)
+[ RUN      ] file_test.fdopen
+[       OK ] file_test.fdopen (0 ms)
+[----------] 25 tests from file_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 44 tests from 3 test suites ran. (1 ms total)
+[  PASSED  ] 44 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"os-test" end time: Feb 22 09:55 +03
+"os-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 22 09:55 +03

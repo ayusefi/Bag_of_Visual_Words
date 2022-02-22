@@ -1,0 +1,2 @@
+/usr/bin/ar qc libplace_recognizer.a  CMakeFiles/place_recognizer.dir/src/place_recognizer.cpp.o
+/usr/bin/ranlib libplace_recognizer.a
